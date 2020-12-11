@@ -30,7 +30,7 @@ monikerRange: "= azuresqldb-current || = azure-sqldw-latest || = sqlallproducts-
 ## Syntax  
   
 ```
-sp_set_firewall_rule [@name =] 'name', 
+sp_set_firewall_rule [@name =] N'name', 
     [@start_ip_address =] 'start_ip_address', 
     [@end_ip_address =] 'end_ip_address'
 [ ; ]  
